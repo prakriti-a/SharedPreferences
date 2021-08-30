@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">SharedPreferences</string>
+    <string name="next_activity">GO TO NEXT ACTIVITY</string>
+    <string name="text">This Is My Text</string>
+    <string name="settings">Settings</string>
+    <string name="text1_settings">Settings for Text 1</string>
+    <string name="bagelad">bagelad</string>
+    <string name="font_summary_text1">Available Custom Font for Text 1</string>
+    <string name="font_summary_text2">Available Custom Font for Text 2</string>
+    <string name="font_summary_text3">Available Custom Font for Text 3</string>
+    <string name="brownis_regular">BrownisRegular</string>
+    <string name="hold_on">Hold On</string>
+    <string name="text1">THIS IS TEXT ONE</string>
+    <string name="text2">THIS IS TEXT TWO</string>
+    <string name="text3">THIS IS TEXT THREE</string>
+    <string name="text1_font_size">Specify Font Size for Text One</string>
+    <string name="text2_font_size">Specify Font Size for Text Two</string>
+    <string name="text3_font_size">Specify Font Size for Text Three</string>
+    <string name="fonts_choose">Choose a Font Size</string>
+    <string name="text2_settings">Settings for Text 2</string>
+    <string name="text3_settings">Settings for Text 3</string>
+    <string name="fallen_angel">FallenAngel</string>
+    <string name="blueberrylove">BlueberryLove</string>
+    <string name="floodicons_regular">Floodicons-Regular</string>
+    <string name="hiany_lau">Hiany Lau</string>
+    <string name="qabil_free_trial">Qabil Free Trial</string>
+    <string name="summer_flower">summer flower</string>
+
+    <string-array name="font_sizes">
+        <item>18sp</item>
+        <item>20sp</item>
+        <item>22sp</item>
+        <item>24sp</item>
+        <item>26sp</item>
+        <item>28sp</item>
+        <item>30sp</item>
+    </string-array>
+
+    <string-array name="font_size_values">
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
+        <item>28</item>
+        <item>30</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- data auto saved to preferences -->
+
+    <!-- settings layout for TEXT ONE -->
+    <PreferenceCategory
+        android:title="@string/text1_settings">
+
+        <CheckBoxPreference
+            android:key="CHECKBOX_TEXT1_FONT1"
+            android:title="@string/bagelad"
+            android:summary="@string/font_summary_text1"
+            android:defaultValue="bagelad.otf"/>
+
+        <CheckBoxPreference
+            android:key="CHECKBOX_TEXT1_FONT2"
+            android:title="@string/brownis_regular"
+            android:summary="@string/font_summary_text1"
+            android:defaultValue="BrownisRegular.ttf"/>
+
+        <CheckBoxPreference
+            android:key="CHECKBOX_TEXT1_FONT3"
+            android:title="@string/hold_on"
+            android:summary="@string/font_summary_text1"
+            android:defaultValue="Hold On.ttf"/>
+            <!-- default value should be same as font file name -->
+
+        <!-- list pref shows a list of radio buttons -->
+        <ListPreference
+            android:key="FONT_SIZE_TEXT1"
+            android:title="@string/text1_font_size"
+            android:dialogTitle="@string/fonts_choose"
+            android:entries="@array/font_size_values"
+            android:entryValues="@array/font_sizes"
+            android:defaultValue="22">
+
+        </ListPreference>
+
+    </PreferenceCategory>
+
+    <!-- settings layout for TEXT TWO -->
+    <PreferenceCategory
+        android:title="@string/text2_settings">
+
+        <CheckBoxPreference
+            android:key="CHECKBOX_TEXT2_FONT4"
+            android:title="@string/blueberrylove"
+            android:summary="@string/font_summary_text2"
+            android:defaultValue="BlueberryLove.ttf"/>
+
+        <CheckBoxPreference
+            android:key="CHECKBOX_TEXT2_FONT5"
+            android:title="@string/fallen_angel"
+            android:summary="@string/font_summary_text2"
+            android:defaultValue="FallenAngel.otf"/>
+
+        <CheckBoxPreference
+            android:key="CHECKBOX_TEXT2_FONT6"
+            android:title="@string/floodicons_regular"
+            android:summary="@string/font_summary_text2"
+            android:defaultValue="Floodicons-Regular.ttf"/>
+        <!-- default value should be same as font file name -->
+
+        <!-- list pref shows a list of radio buttons -->
+        <ListPreference
+            android:key="FONT_SIZE_TEXT2"
+            android:title="@string/text2_font_size"
+            android:dialogTitle="@string/fonts_choose"
+            android:entries="@array/font_size_values"
+            android:entryValues="@array/font_sizes"
+            android:defaultValue="22">
+
+        </ListPreference>
+
+    </PreferenceCategory>
+
+    <!-- settings layout for TEXT THREE -->
+    <PreferenceCategory
+        android:title="@string/text3_settings">
+
+        <CheckBoxPreference
+            android:key="CHECKBOX_TEXT3_FONT7"
+            android:title="@string/hiany_lau"
+            android:summary="@string/font_summary_text3"
+            android:defaultValue="Hiany Lau.ttf"/>
+
+        <CheckBoxPreference
+            android:key="CHECKBOX_TEXT3_FONT8"
+            android:title="@string/qabil_free_trial"
+            android:summary="@string/font_summary_text3"
+            android:defaultValue="Qabil Free Trial.ttf"/>
+
+        <CheckBoxPreference
+            android:key="CHECKBOX_TEXT3_FONT9"
+            android:title="@string/summer_flower"
+            android:summary="@string/font_summary_text3"
+            android:defaultValue="summer flower.ttf"/>
+        <!-- default value should be same as font file name -->
+
+        <!-- list pref shows a list of radio buttons -->
+        <ListPreference
+            android:key="FONT_SIZE_TEXT3"
+            android:title="@string/text3_font_size"
+            android:dialogTitle="@string/fonts_choose"
+            android:entries="@array/font_size_values"
+            android:entryValues="@array/font_sizes"
+            android:defaultValue="22">
+
+        </ListPreference>
+
+    </PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>
